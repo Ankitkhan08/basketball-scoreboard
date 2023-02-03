@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background: rgb(26, 26, 93);
+    text-align: center;
+}
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("CursedTimerULiL.ttf");
+    }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    font-family: "Cursed Timer ULiL" ;
+    /* background: #0a0001; */
+    font-size: 90px;
+    color: #F94F6D;
+    /* width: 120px; */
+    margin-top: 20px;
+    height: 119px;
+}
+
+.pointsh {
+    display: flex;
+    font-family: "Cursed Timer ULiL" ;
+    /* justify-content: flex-start; */
+}
+
+.pointsg {
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.home {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    text-align: left;
+
+    color: #eeeeee;
+}
+
+.guest {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    text-align: right;
+
+    color: #eeeeee;
+}
+
+.view {
+    border: 5px black;
+    background-color: black;
+    margin: 40px;
+    margin-left: 0px;
+
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+}
+
+.viewg {
+    /* border: 5px black; */
+    background-color: black;
+    margin: 40px;
+    margin-left: 0px;
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+}
+
+.numbers {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 20px;
+
+    font-family: "Cursed Timer ULiL" ;
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+.numbersg {
+
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 20px;
+    /* top: 125px; */
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+.pointsh {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 300px;
+    background: rgb(26, 26, 93);
+    /* border: 2px solid #9AABD8; */
+    /* margin: 0 auto; */
+}
+.pointsg {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 337px;
+    top: 300px;
+
+    /* border: 2px solid #9AABD8; */
+    /* margin: 0 auto; */
+}
+
+.add1h , .add2h , .add3h , .add1g , .add2g , .add3g {
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding-left: 17.2%;
+    font-family: "Cursed Timer ULiL" ;
+    background: rgb(26, 26, 93);
+    color: #9AABDB;
+}
+
